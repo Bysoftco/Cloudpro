@@ -1,4 +1,5 @@
-#Funcion Absoluto
+#Funcion Absoluto y FActorial
+#William Cristancho Marzo 05 /2026
 #video Drive Area y Volumen de :CUBO, Esfera,
 import math;
 def absn(n):
