@@ -29,7 +29,7 @@ public class JScrumSDK {
         // Samuel Castillo Benavides 1023371624
         System.out.print("Ingresa tu genero: ");
         String genero = sc.nextLine(); 
-        // Sara
+        // Sara Ramos Arango CC 1034399881
         System.out.print("Ingresa tu salario: ");
         double salario = sc.nextDouble(); 
         sc.nextLine(); 
