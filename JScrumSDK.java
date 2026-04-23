@@ -33,7 +33,7 @@ public class JScrumSDK {
         System.out.print("Ingresa tu salario: ");
         double salario = sc.nextDouble(); 
         sc.nextLine(); 
-        // Jose 
+        // Jose Manuel Hurtado 1072642819
         System.out.print("Ingresa tu estado civil: ");
         
         String Civil = sc.nextLine();
