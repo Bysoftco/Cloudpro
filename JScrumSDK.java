@@ -17,7 +17,7 @@ public class JScrumSDK {
         System.out.print("Ingresa tu rol: ");
         String rol = sc.nextLine();
         
-        System.out.println("Soy el "+rol+" de Cloudpro.."+name+" mi edad es: "+edad);
+        System.out.println("Soy el "+rol+" de Cloudpro, Mi nombre es: "+name+" mi edad es: "+edad);
         
         sc.close();
     }
