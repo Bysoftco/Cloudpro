@@ -7,17 +7,22 @@ public class JScrumSDK {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         
+      
         System.out.print("Ingresa tu edad: ");
         int edad = sc.nextInt();
         sc.nextLine(); // limpiar buffer
         
         System.out.print("Ingresa tu nombre: ");
         String name = sc.nextLine();
+
+       //Valentina Perez 4755553
+        System.out.print("Ingresar tu RH: ");
+        String RH = sc.nextLine();
         
         System.out.print("Ingresa tu rol: ");
         String rol = sc.nextLine();
         
-        System.out.println("Soy el "+rol+" de Cloudpro, Mi nombre es: "+name+", Mi edad es: "+edad);
+        System.out.println("Soy el "+rol+" de Cloudpro, Mi nombre es: "+name+", Mi RH es: "+RH+"  ,Mi edad es: "+edad);
         
         sc.close();
     }
