@@ -19,6 +19,10 @@ public class JScrumSDK {
         System.out.print("Ingresar tu RH: ");
         String RH = sc.nextLine();
         
+         // Maria Elsa Nossa Muñoz-1118366043
+        System.out.print("Ingresa tu peso: ");
+        String peso = sc.nextLine();
+        
         System.out.print("Ingresa tu rol: ");
         String rol = sc.nextLine();
         
