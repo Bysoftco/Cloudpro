@@ -24,9 +24,22 @@ public class JScrumSDK {
         String peso = sc.nextLine();
         
         System.out.print("Ingresa tu rol: ");
-        String rol = sc.nextLine();
         
-        System.out.println("Soy el "+rol+" de Cloudpro, Mi nombre es: "+name+", Mi RH es: "+RH+"  ,Mi edad es: "+edad);
+        String rol = sc.nextLine();
+        // Samuel Castillo Benavides 1023371624
+        System.out.print("Ingresa tu genero: ");
+        String genero = sc.nextLine(); 
+        // Sara
+        System.out.print("Ingresa tu salario: ");
+        double salario = sc.nextDouble(); 
+        sc.nextLine(); 
+        // Jose 
+        System.out.print("Ingresa tu estado civil: ");
+        
+        String Civil = sc.nextLine();
+        
+        
+        System.out.println("Soy el " + rol + " de Cloudpro, Mi nombre es: " + name + ", Mi edad es: " + edad + ", Mi genero es: " + genero + " y mi salario es: " + salario+ ", Mi rh es: " +RH+ ", Mi peso es: " +peso+ ",  Mi estado civil es: "+civil);
         
         sc.close();
     }
